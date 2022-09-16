@@ -12,7 +12,7 @@ module.exports = {
             console.log(`Error: ${error}`);
             return res.status(501).json({
                 success: false,
-                message: `Error al obtener los usuarios0`
+                message: `Error al obtener los usuarios`
             });
         }
     }
